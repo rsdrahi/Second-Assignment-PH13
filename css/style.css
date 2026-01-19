@@ -88,10 +88,14 @@ span-h2{
 
 .nav-menu li a{
   text-decoration: none;
+  transition: 0.2s ease-in-out;
 }
 
 .nav-menu li a:hover{
-  color: #F7E93F;
+  background-color: #F7E93F;
+  padding: 20px;
+  border-radius: 50px;
+  color: #9100F8;
 }
 
 
@@ -102,6 +106,11 @@ span-h2{
   border: none;
   border-radius: 10000px;
   cursor: pointer;
+}
+
+.btn-primary:hover{
+  background: transparent;
+  border: 1px solid #9100F8;
 }
 
 .hamburger{
