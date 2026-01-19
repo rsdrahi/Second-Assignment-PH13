@@ -22,6 +22,35 @@
   color: #FFFFFF;
 }
 
+.faq-background{
+  background-color: rgba(53, 17, 101, 0.4);
+}
+
+.faq-images{
+  width: 40px;
+  height: 40px;
+  margin-bottom: 16px;
+}
+
+.faq-card-title{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.faq-card-text{
+  font-size: 0.8rem;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.faq-card-border{
+  border: none;
+  border-radius: 40px;
+}
+
+
+
+
 /* NavBar */
 
 .nav-section{
@@ -199,6 +228,95 @@ span-h2{
   font-size: 1rem;
   line-height: 20px;
   text-align: center;
+}
+
+/* FAQ SEction */
+
+.faq-section{
+  max-width: 1200px;
+  /* border: 1px solid red; */
+  height: 900px;
+  margin: 0 auto;
+  padding: 50px 30px;
+}
+
+.faq-cards{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,200px);
+  gap: 30px;
+}
+
+.faq-head-title{
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.box-1{
+  grid-row: 1/span 2;
+  grid-column: 1/2;
+  padding: 70px 40px;
+}
+
+.box-1 h5{
+  margin-bottom: 16px;
+}
+
+.box-2{
+  grid-row: 1/2;
+  grid-column: 2/ span 2;
+  padding: 40px;
+}
+
+.box-2 img{
+  width: 30px;
+  height: 40px;
+  margin-bottom: 12px;
+}
+
+.box-2 h5{
+  margin-bottom: 12px;
+}
+
+.box-3{
+  grid-row: 2/3;
+  grid-column: 2/ span 2;
+  padding: 40px;
+}
+
+
+.box-3 h5{
+  margin-bottom: 12px;
+}
+
+.box-4{
+  grid-row: 3/4;
+  grid-column: 1/span 2;
+  padding: 10px 40px;
+}
+
+
+.box-4 img{
+  margin-bottom: 8px;
+}
+
+.box-4 h5{
+  margin-bottom: 8px;
+}
+
+.box-5{
+  grid-column: 3/4;
+  grid-row: 3/4;
+  padding: 20px;
+}
+
+.box-5 img{
+  margin-bottom: 8px;
+}
+
+.box-5 h5{
+  margin-bottom: 8px;
 }
 
 
