@@ -152,7 +152,54 @@ span-h2{
   font-size: 0.7rem;
 }
 
+/* Podcast */
 
+.podcast-section{
+  /* border: 1px solid red; */
+  max-width: 1200px;
+  height: 580px;
+  margin: 0 auto;
+}
+
+.podcast-content{
+  text-align: center;
+  padding-top: 50px;
+}
+
+.content-title{
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.content-description{
+ font-size: 0.6rem;
+ line-height: 20px;
+ margin-bottom: 100px;
+}
+
+.podcast-rating{
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+  justify-content: space-between;
+  gap: 80px;
+  /* border: 1px solid white; */
+}
+
+.card-title{
+  color: #00FF88;
+  text-align: center;
+  margin-bottom: 8px;
+  font-size: 3rem;
+}
+
+.card-description{
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 20px;
+  text-align: center;
+}
 
 
 
@@ -231,5 +278,28 @@ span-h2{
     margin-bottom: 5px;
   }
 
+  /* Podcast */
+  .content-title{
+    font-size: 2rem;
+  }
+
+  .content-description{
+ font-size: 0.6rem;
+ padding-left: 20px;
+ padding-right: 20px;
+}
+
+.podcast-rating{
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card-title{
+  font-size: 1.5rem;
+}
+
+.card-description{
+  font-size: 0.6rem;
+}
 
 }
