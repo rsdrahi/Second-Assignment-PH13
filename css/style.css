@@ -40,7 +40,7 @@
 .faq-card-text{
   font-size: 0.8rem;
   line-height: 24px;
-  font-weight: 400;
+  opacity: 60%;
 }
 
 .faq-card-border{
@@ -158,6 +158,7 @@ span-h2{
 .banner-description{
   font-size: 1rem;
   margin-bottom: 24px;
+  opacity: 60%;
 }
 
 .banner-btn{
@@ -205,6 +206,7 @@ span-h2{
  font-size: 0.6rem;
  line-height: 20px;
  margin-bottom: 100px;
+ opacity: 60%;
 }
 
 .podcast-rating{
@@ -228,6 +230,7 @@ span-h2{
   font-size: 1rem;
   line-height: 20px;
   text-align: center;
+  opacity: 60%;
 }
 
 /* FAQ SEction */
@@ -378,6 +381,7 @@ span-h2{
   font-size: 0.8rem;
   padding-right: 10px;
   padding-left: 10px;
+  opacity: 60%;
 }
 
 .clock{
@@ -442,6 +446,10 @@ span-h2{
   margin-bottom: 12px;
 }
 
+.host-description{
+  opacity: 60%;
+}
+
 .social-icon{
   display: flex;
   gap: 8px;
@@ -458,13 +466,61 @@ span-h2{
   border-radius: 50%;
 }
 
+/* Footer */
 
+footer{
+  background-image: url(../assets/footer-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  max-width: 1200px;
+}
 
+.footer-content{
+  text-align: center;
+  padding: 120px;
+  width: 100%;
+}
 
+.footer-title{
+  font-size: 3rem;
+  box-shadow: rgba(0, 0, 0, 0.25);
+  font-weight: 700;
+  margin-bottom: 28px;
+}
 
+.wave{
+  background: linear-gradient(to top right, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
+.social-links{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  gap: 40px;
+}
 
+.social-links a{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 0.7rem;
+}
 
+.social-links img{
+  width: 15px;
+}
+
+.copyright-content{
+  font-size: 0.7rem;
+  opacity: 60%;
+  color: #FFFFFF;
+}
 
 
 /* Responsive */
@@ -474,15 +530,12 @@ span-h2{
     padding: 20px;
     justify-content: space-between;
   }
-
    .hamburger{
     display: inline-block;
   }
-
   .nav-menu{
     display: none;
   }
-
   .btn-primary{
     display: none;
   }
@@ -494,37 +547,31 @@ span-h2{
     background-size: cover;
     position: relative;
   }
-
   .banner-content{
     padding: 50px 30px;
     background-size: 160px;
   }
-
   .banner-content img{
     width: 45px;
   }
-
   .tooltip{
-  background-color: #00FF88;
-  width: 60px;
-  height: 30px;
-  font-size: 0.8rem;
-  text-align: center;
-  padding: 8px 16px;
-  border-radius: 1000px;
-  position: absolute;
-  top: 5%;
-  right: 29%;
-  font-weight: 600;
-}
-
-
-  .banner-title{
-    font-size: 2.5rem;
-  }
-
-  .banner-description{
+    background-color: #00FF88;
+    width: 60px;
+    height: 30px;
     font-size: 0.8rem;
+    text-align: center;
+    padding: 8px 16px;
+    border-radius: 1000px;
+    position: absolute;
+    top: 5%;
+    right: 29%;
+    font-weight: 600;
+}
+.banner-title{
+  font-size: 2.5rem;
+  }
+.banner-description{
+  font-size: 0.8rem;
   }
 
   .soptify-btn{
@@ -643,6 +690,23 @@ span-h2{
   justify-content: center;
 }
 
+/* Footer */
+
+.footer-title{
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+.social-links{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* justify-content: space-between; */
+  justify-items: center;
+}
+
+.copyright-content{
+  font-size: 0.40rem;
+}
 
 
 
