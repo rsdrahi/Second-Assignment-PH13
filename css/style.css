@@ -335,6 +335,7 @@ span-h2{
 .feature-container{
   max-width: 1200px;
   margin: 0px auto;
+  padding-bottom: 80px;
 }
 
 .feature-head{
@@ -403,6 +404,7 @@ span-h2{
 
 .host-head{
   margin-top: 30px;
+  margin-bottom: 20px;
   font-size: 3rem;
   font-weight: 700;
   text-align: center;
